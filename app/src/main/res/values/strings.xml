@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SellesPOS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Quản lý bán hàng</string>
+    <string name="nav_header_subtitle">buiphu001@gmail.com</string>
+    <string name="nav_header_desc">Photocopy-Vi tính Cao đẳng Bến Tre</string>
+
+    <string name="action_themkhachhang">Thêm khách hàng vào hóa đơn</string>
+    <string name="action_xoahoadon">Xóa nội dung hóa đơn</string>
+    <string name="action_inhoadon">In hóa đơn</string>
+    <string name="action_suahoadon">Sửa hóa đơn</string>
+    <string name="action_ganhoadon">Gán hóa đơn</string>
+    <string name="action_ghephoadon">Ghép hóa đơn</string>
+    <string name="action_tachhoadon">Tách hóa đơn</string>
+    <string name="action_mokettien">Mở két tiền</string>
+    <string name="action_dongbodulieu">Đồng bộ dữ liệu</string>
+
+
+    <string name="menu_hoadon">Hóa đơn</string>
+    <string name="menu_bienlai">Biên lai</string>
+    <string name="menu_calamviec">Ca làm việc</string>
+    <string name="menu_mathang">Mặt hàng</string>
+    <string name="menu_caidat">Cài đặt</string>
+    <string name="menu_quantri">Quản trị</string>
+    <string name="menu_ungdung">Ứng dụng</string>
+    <string name="menu_trogiup">Trợ giúp</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

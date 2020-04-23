@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.hoadon">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:weightSum="2">
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btnHoaDonCho_HD"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#169C1C"
+            android:text="Hóa đơn chờ"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btnThanhToan_HD"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#169C1C"
+            android:text="Thanh toán \n 0"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <Spinner
+        android:id="@+id/spnLoaiSP_HD"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+        <ImageButton
+            android:id="@+id/imgbtnBarcode_HD"
+            android:scaleType="fitXY"
+            android:src="@drawable/hd_barcode"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <ImageButton
+            android:id="@+id/imgbtnSearch_HD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hd_search" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvSanPham_HD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

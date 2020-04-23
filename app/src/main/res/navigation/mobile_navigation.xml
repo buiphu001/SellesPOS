@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_hoadon">
+
+    <fragment
+        android:id="@+id/nav_hoadon"
+        android:name="com.buiphu.sellespos.ui.hoadon"
+        android:label="@string/menu_hoadon"
+        tools:layout="@layout/fragment_hoadon" />
+    <fragment
+        android:id="@+id/nav_bienlai"
+        android:name="com.buiphu.sellespos.ui.bienlai"
+        android:label="@string/menu_bienlai"
+        tools:layout="@layout/fragment_bienlai" />
+    <fragment
+        android:id="@+id/nav_calamviec"
+        android:name="com.buiphu.sellespos.ui.calamviec"
+        android:label="@string/menu_calamviec"
+        tools:layout="@layout/fragment_calamviec" />
+    <fragment
+        android:id="@+id/nav_mathang"
+        android:name="com.buiphu.sellespos.ui.mathang"
+        android:label="@string/menu_mathang"
+        tools:layout="@layout/fragment_mathang" />
+    <fragment
+        android:id="@+id/nav_caidat"
+        android:name="com.buiphu.sellespos.ui.caidat"
+        android:label="@string/menu_caidat"
+        tools:layout="@layout/fragment_caidat" />
+    <fragment
+        android:id="@+id/nav_quantri"
+        android:name="com.buiphu.sellespos.ui.quantri"
+        android:label="@string/menu_quantri"
+        tools:layout="@layout/fragment_quantri" />
+    <fragment
+        android:id="@+id/nav_ungdung"
+        android:name="com.buiphu.sellespos.ui.ungdung"
+        android:label="@string/menu_ungdung"
+        tools:layout="@layout/fragment_ungdung" />
+    <fragment
+        android:id="@+id/nav_trogiup"
+        android:name="com.buiphu.sellespos.ui.trogiup"
+        android:label="@string/menu_trogiup"
+        tools:layout="@layout/fragment_trogiup" />
+
+</navigation>

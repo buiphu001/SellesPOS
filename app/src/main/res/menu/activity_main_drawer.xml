@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hoadon"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_hoadon" />
+        <item
+            android:id="@+id/nav_bienlai"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_bienlai" />
+        <item
+            android:id="@+id/nav_calamviec"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_calamviec" />
+        <item
+            android:id="@+id/nav_mathang"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_mathang" />
+        <item
+            android:id="@+id/nav_caidat"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_caidat" />
+    </group>
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_quantri"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_quantri" />
+        <item
+            android:id="@+id/nav_ungdung"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_ungdung" />
+        <item
+            android:id="@+id/nav_trogiup"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_trogiup" />
+
+    </group>
+</menu>

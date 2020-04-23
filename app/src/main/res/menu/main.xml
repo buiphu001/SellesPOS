@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_themkhachhang"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_person_add_foreground"
+        android:title="@string/action_themkhachhang"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_xoahoadon"
+        android:orderInCategory="100"
+        android:title="@string/action_xoahoadon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_inhoadon"
+        android:orderInCategory="100"
+        android:title="@string/action_inhoadon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_suahoadon"
+        android:orderInCategory="100"
+        android:title="@string/action_suahoadon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ganhoadon"
+        android:orderInCategory="100"
+        android:title="@string/action_ganhoadon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ghephoadon"
+        android:orderInCategory="100"
+        android:title="@string/action_ghephoadon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tachhoadon"
+        android:orderInCategory="100"
+        android:title="@string/action_tachhoadon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mokettien"
+        android:orderInCategory="100"
+        android:title="@string/action_mokettien"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dongbodulieu"
+        android:orderInCategory="100"
+        android:title="@string/action_dongbodulieu"
+        app:showAsAction="never" />
+</menu>
