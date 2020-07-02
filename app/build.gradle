@@ -3,7 +3,10 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
+
+    // Khai báo sử dụng binding. Lưu ý: cần xóa .gradle trong project
     viewBinding.enabled = true
+
     defaultConfig {
         applicationId "com.buiphu.sellespos"
         minSdkVersion 22

@@ -1,6 +1,7 @@
 package com.buiphu.sellespos;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
 
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     // Khai báo
     ActivityMainBinding binding;
     private AppBarConfiguration mAppBarConfiguration;
+    public static Menu menuMain;
+    public static int rMenu = R.menu.main;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,13 +62,14 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
     } //-------------------------------------------------------------------------------------------------
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(rMenu, menu);
+        menuMain = menu;
         return true;
     }
+
 
     @Override
     public boolean onSupportNavigateUp() {
